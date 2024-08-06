@@ -10,7 +10,7 @@ public class FitnessWorkoutTrackerDbContext : IdentityDbContext<UserApplication>
 {
     public FitnessWorkoutTrackerDbContext()
     {
-        
+
     }
 
     public DbSet<Workout> Workouts { get; set; }
